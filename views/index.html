@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>File Metadata Microservice</title>
+    <link rel="shortcut icon"
+        href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico"
+        type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link href="/public/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>File Metadata Microservice</h1>
+        <h3>This is a simple file upload microsevice.</h3>
+        <p>
+            Try Uploading a file.
+        </p>
+        <div class="view">
+            <h4 id="output"></h4>
+            <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+                <input id="inputfield" type="file" name="upfile">
+                <input id="button" type="submit" value="Upload">
+            </form>
+        </div>
+    </div>
+</body>
+
+
+</html>
