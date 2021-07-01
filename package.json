@@ -1,0 +1,29 @@
+{
+    "name": "file_metadata",
+    "version": "0.0.1",
+    "description": "API Microservice Project",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.0.0-alpha.8",
+        "multer": "^1.4.2"
+    },
+    "engines": {
+        "node": "4.4.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/karthike6117"
+    },
+    "keywords": [
+        "node",
+        "karthike6117",
+        "express",
+        "file upload microservice",
+        "file upload"
+    ],
+    "license": "MIT"
+}
